@@ -122,23 +122,49 @@ font-size: 30px;
 }
 
 
-.skillsMinecraft {
+.skillsMath {
     
     width: 25%;
     float: right;
     margin-left: 30px;
 }
 
+
+
 .skill-row {
 
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
+}
+
+.hobbierow {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
     
+}
+
+.minecraft {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    
+}
+
+.guitar {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
 
 }
 
+.book {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
 
+}
 
 .lol {
 color: #EAF6F6;
@@ -194,7 +220,8 @@ color: #EAF6F6;
 
 .hello {
     font-size: 30px;
-
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 .hello1 {
