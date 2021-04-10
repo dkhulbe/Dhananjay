@@ -2,7 +2,7 @@ body {
     margin: 0;
     text-align: center;
     font-family:'Merriweather', serif;
-
+    color: #40514E;
 }
 
 h1 {
@@ -18,12 +18,37 @@ font-family: 'Monsterrat', sans-serif;
 color: #66BFBF;
 font-weight: normal;
 font-size: 2rem;
+padding-right: 10px;
 }
 
 h3 {
 
     font-family: 'Monsterrat', sans-serif;
     color: #11999E;
+}
+
+p {
+    line-height: 2;
+
+}
+
+a {
+    color: #11999E;
+    font-family: 'Monsterrat', sans-serif;
+    margin: 10px 20px;
+
+}
+
+a:hover {
+    color: #EAF6F6;
+
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
 }
 
 .topContainer {
@@ -34,24 +59,29 @@ h3 {
 }
 
 .middle-container{
-    
+    margin: 100px 0;
 
 }
 
-.bottomContainer{
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
 
-    
+.bottomContainer{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
 
 }
 .topCloud {
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 40px;
 }
 
 .bottomCloud {
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
 
 }
@@ -70,28 +100,89 @@ h3 {
 text-decoration: underline;
 font-size: 20px;
 }
+    
 
-.skillsCoding {
-width: 20%;
-height: 20%;
-
-}
 
 .robotics {
-
-   width: 20%; 
-    height: 20%;
+    
+    width: 25%; 
+    float: right;
+    margin-left: 30px;
 }
 
-.skillsMinecraft {
+.skillsCoding {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
 
-    width: 20%;
-    height: 20%;
+
+.skillsMinecraft {
+    
+    width: 25%;
+    float: right;
+    margin-left: 30px;
 }
 
 .skill-row {
 
     width: 50%;
-    position: re
-    ;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+
 }
+
+
+
+.lol {
+color: #EAF6F6;
+
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.BUTTON_XEO {
+    margin-bottom: 30px;
+    background: #11CDDC;
+    background-image: -webkit-linear-gradient(top, #11CDDC, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDDC, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDDC, #11999E);
+    background-image: -o-linear-gradient(top, #11CDDC, #11999E);
+    background-image: -webkit-gradient(to bottom, #11CDDC, #11999E);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family:'Merriweather', serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_XEO:hover {
+    border: solid #337FED 1px;
+    background: #30E3BC;
+    background-image: -webkit-linear-gradient(top, #30E3BC, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3BC, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3BC, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3BC, #2BC4AD);
+    background-image: -webkit-gradient(to bottom, #30E3BC, #2BC4AD);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
