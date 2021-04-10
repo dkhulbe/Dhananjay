@@ -45,21 +45,21 @@ a:hover {
 }
 
 hr {
-    border: dotted #EAF6F6 6px;
+    border: dotted #848686 6px;
     border-bottom: none;
     width: 4%;
     margin: 100px auto;
 }
 
 .topContainer {
-    background-color: #e4f9f5;
+    background-color: #EAF6F6;
     position: relative;
-    padding-top: 100px;
-
+    padding-top: 1px;
+    padding-bottom: 0px;
 }
 
 .middle-container{
-    margin: 100px 0;
+    margin: 0x 0;
 
 }
 
@@ -76,7 +76,7 @@ hr {
 .topCloud {
     position: absolute;
     right: 300px;
-    top: 40px;
+    top: 0px;
 }
 
 .bottomCloud {
@@ -89,16 +89,21 @@ hr {
 .profile2{
     position: relative;
     width: 50%;
-    height: 50%;
+    
     }
 
+.profile {
+    padding-top:0px;
+
+}
+
 .code {
-    font-size: 20px;
+    font-size: 30px;
 }
    
 .student {
 text-decoration: underline;
-font-size: 20px;
+font-size: 30px;
 }
     
 
@@ -186,3 +191,13 @@ color: #EAF6F6;
     border-radius: 20px;
     text-decoration: none;
  }
+
+.hello {
+    font-size: 30px;
+
+}
+
+.hello1 {
+    font-size: 20px;
+
+}
